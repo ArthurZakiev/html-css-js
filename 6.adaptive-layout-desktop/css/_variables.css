@@ -1,0 +1,35 @@
+:root {
+  /* Font */
+  --montserrat: "Montserrat";
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+  --extrabold: 800;
+
+  --default-fs: 16px;
+  --default-lh: 32px;
+
+  /* Color */
+  --dark: #333333;
+  --white: #FFFFFF;
+  --orange: #FF9900;
+  --orange-dark: #E1670E;
+  --orange-transp: rgba(255, 153, 0, 0.7);
+  --gray-blue: #4f6b8b;
+  --dark-transp: rgba(0, 0, 0, 0.5);
+  --lightgray: #CACACA;
+  --dark-gray: #666666;
+  --dark-light: #414141;
+  --black: #000000;
+
+  /* Body */
+  --body-max-width: 1920px;
+
+  /* Container */
+  --container-max-width: 1870px;
+  --container-padding: 50px;
+
+  /* Transitions */
+  --short: .3s;
+}

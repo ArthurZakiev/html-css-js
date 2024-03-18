@@ -1,0 +1,30 @@
+.questions {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.questions__title {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1280px) {
+  .questions {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .questions__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .questions {
+    padding-top: 27px;
+    padding-bottom: 30px;
+  }
+  .questions__title {
+    margin-bottom: 20px;
+  }
+}
+

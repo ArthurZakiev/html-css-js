@@ -1,0 +1,194 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: 'fon  t', sans-serif;
+  background: #F1F1F1;;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  bottom: 0;
+  padding: 0;
+  clip: rect(0,0,0,0);
+  overflow: hidden;
+}
+
+/* glob */
+
+.flex {
+  display: flex;
+}
+
+.marker {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.indent {
+  padding: 20px 0 0 0;
+  margin: 0;
+}
+
+.section-indent {
+  padding: 35px 0 35px 0;
+}
+
+.section-title {
+  margin: 0;
+}
+
+/* header */
+
+.logo-contacts {
+  margin-bottom: 30px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  padding: 36px 0;
+}
+
+.header-logo {
+  margin-right: 40px;
+  width: 261px;
+  min-height: 54px;
+}
+
+.contacts {
+  margin-right: 570px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.personal-area {
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+}
+
+.container-nav {
+  padding: 27px 45px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  background: #FFFFFF;
+}
+
+.header-list-item {
+  font-size: 16px;
+  color: #666666;
+}
+
+.menu {
+  gap: 10px 45px;
+}
+
+.button {
+  justify-content: flex-end;
+  font-size: 16px;
+  line-height: 16px;
+  gap: 10px 40px;
+}
+
+.header-btn {
+  border-radius: 10px;
+  padding: 13px 20px;
+  background: transparent;
+  color: #CC9933;
+}
+
+.btn {
+  border: 1px solid #CC9933
+}
+/* main */
+
+/* offers section*/
+
+.offers-blog {
+  flex-wrap: wrap-reverse;
+  column-gap: 23px;
+}
+
+.offer-blog {
+  width: 573px;
+  height: 258px
+}
+
+
+
+/* we section */
+
+.we-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+/* services section */
+
+.cards {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  padding: 6px 0 35px 0;
+  width: 573px;
+  height: 165px;
+}
+
+
+/* plus */
+
+.plus-items {
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.plus-item {
+  padding: 116px 42px 32px 45px;
+  width: 276px;
+  height: 276px;
+}
+
+/* place */
+
+.cards-place {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.place-item {
+  width: 374px;
+  min-height: 440px;
+}

@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  max-width: 870px;
+  padding: 63px 111px 63px 60px;
+  border: 1px solid var(--lightgray);
+  border-radius: 32px;
+  background-size: 0;
+}
+
+.card::before {
+  content: "";
+  flex-shrink: 0;
+  width: calc(190 / (870 - 60 - 111) * 100%);
+  margin-right: 50px;
+  padding-top: calc(165 / (870 - 60 - 111) * 100%);
+  background-image: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 29px;
+}
